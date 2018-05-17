@@ -33,25 +33,25 @@ public class Script_Game_Controller: MonoBehaviour
 	void Update ()
 	{
 		// switch this to switch(KeyCode)
-		if (Input.GetKeyDown (KeyCode.Keypad0)) {
+		if (Input.GetKeyDown (KeyCode.Alpha0)) {
 			Change_Level (0);
-		} else if (Input.GetKeyDown (KeyCode.Keypad1)) {
+		} else if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			if (levels.Count - 1 >= 1) {
 				Change_Level (1);
 			}
-		} else if (Input.GetKeyDown (KeyCode.Keypad2)) {
+		} else if (Input.GetKeyDown (KeyCode.Alpha2)) {
 			if (levels.Count - 1 >= 2) {
 				Change_Level (2);
 			}
-		} else if (Input.GetKeyDown (KeyCode.Keypad3)) {
+		} else if (Input.GetKeyDown (KeyCode.Alpha3)) {
 			if (levels.Count - 1 >= 3) {
 				Change_Level (3);
 			}
-		} else if (Input.GetKeyDown (KeyCode.Keypad4)) {
+		} else if (Input.GetKeyDown (KeyCode.Alpha4)) {
 			if (levels.Count - 1 >= 4) {
 				Change_Level (4);
 			}
-		} else if (Input.GetKeyDown (KeyCode.Keypad9)) {
+		} else if (Input.GetKeyDown (KeyCode.Alpha9)) {
 			Transport_To_Four_Seven_Eight ();
 		}
 
