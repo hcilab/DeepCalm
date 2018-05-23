@@ -162,25 +162,16 @@ public class MyController : ArdunityController
 	protected override void OnExecuted()
 	{
 		// Do something after receiving data
-
-		// TODO: how often is this called?
-		// TODO: store data and send ever n frames
-			// needs a pointer to where it is sending
 	}
 
 	protected override void OnConnected()
 	{
 		// When connected to Arduino
-
-		// TODO: hand shake and confirm connection
-		// TODO: 
 	}
 		
 	protected override void OnDisconnected()
 	{
 		// When disconnected to Arduino
-
-		// TODO: if game is running, warn the player
 	}
 
 	protected override void OnReset()
@@ -193,8 +184,6 @@ public class MyController : ArdunityController
 		// To export Arduino sketch
 		// If some files are required, you can copy to sketch folder
 		// This file must exist in folder name of 'Arduino'
-
-		// TODO: make sure sketch file is in folder
 		return null;
 	}
 
